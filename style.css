@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CODE Created by Gedeon Gibango GG january 2018*/
+header{
+  background-color: red; 
+}
+body {
+   padding-top: 50px;
+}
+.saved-image{
+  text-align: center;
+}
+.saved-image img{
+  width: auto;
+  height: 150px;
+}
+
+#headerWrapper{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 300px;
+  background-image: url(images/headerlogo/2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#logotext{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/headerlogo/);
+}
+#partial-headerWrapper{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 210px;
+  background-image: url(images/headerlogo/2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#footer{
+  margin-top: 50px;
+}
+img.details{
+  width: 90;
+  margin: 15px auto;
+}
+#add-product-btn{
+  margin-top: -35px;
+}
+
+#login-form{
+  width: 50%;
+  height: 60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+  margin: 8% auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.totals-table-header th{
+  text-align: center;
+}
+
+#cart_widget td, #recent_widget{
+  font-size: 12px;
+}
+
+input.price_range{
+  width: 55px;
+  border-radius: 10px;
+}
